@@ -33,3 +33,20 @@ So just chill and keep streaming!
 Bad Pun!
 
 Now some you might be thinking of how to create a large file :P. I have added all the code in the repo , so go and have a look and do not forget to check the memory usage for each case. 
+
+Here i generated a large file of size 742MB using createLargeFile.js.
+
+Proofs 
+-------
+This is before the file read begins and the Memory usage for the node process is 9.3MB.
+  ![Alt text](./images/readFile1.png?raw=true)
+
+After the file is requested from the server, in case of readFile.js, the memory usage is 717.7MB.
+  ![Alt text](./images/readFile2.png?raw=true)
+  
+On the other hand, in case of reading file using <b>streams</b> in node : 
+
+The memory usage is 70.4MB and it is very very less as compared to readFile (above).
+  ![Alt text](./images/streamFile2.png?raw=true)
+  
+<b>So Yeah! Streams are awesome!</b>
