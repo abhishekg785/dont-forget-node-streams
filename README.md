@@ -22,7 +22,7 @@ Yup! Streams are awesome and make things really fast in this case.
 Now use the fs.createReadStream method to read the file ( code given in the repo ), and pipe the streams of data to the output.
 Pipe in not a big deal, it is simply used to read the data from the readable stream and write data to a writable stream or something like that.
 
-*** Do checkout event-stream *** Awesome module to handle pipe functions for streams.
+Do checkout "event-stream" npm module, an awesome module to handle pipe functions for streams.
 
 So, now if you will check your memory usage, it will be far far less than the previous. 
 
