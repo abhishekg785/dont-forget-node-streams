@@ -1,0 +1,4 @@
+node_modules/
+bigfile.txt
+demoFile.file
+.DS_store
